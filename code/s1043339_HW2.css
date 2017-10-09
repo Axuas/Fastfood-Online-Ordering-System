@@ -1,0 +1,10 @@
+/* styles.css */
+header   { background-color: red;
+                    text-align: center;
+                    font-family: arial, helvetica, sans-serif;
+                    padding: .2em; }
+ h1       { font-size: 20pt;
+                    font-family: arial, sans-serif; }
+table	     {
+	  text-decoration:underline;
+	}					

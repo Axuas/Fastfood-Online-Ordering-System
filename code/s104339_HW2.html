@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+ 
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title color:yellow;>W微笑歡樂送</title>
+	  <link rel = "stylesheet" type = "text/css" href = "s1043339_HW2.css">
+	  <style type = "text/css">
+		 p        { font-size: 20pt;
+                    font-family: arial, sans-serif; }
+         .floated { background: -webkit-gradient(
+					linear, left top, right top,
+					color-stop(15%, white), color-stop(50%, yellow),
+					color-stop(75%, orange) );
+
+                    font-size: 2.5em;
+                    font-family: arial, helvetica, sans-serif;
+                    padding: .2em;
+                    margin-left: .5em;
+                    margin-bottom: .5em;
+                    float: right;
+                    text-align: center;
+                    width: 50%;
+                    color: red;
+					}
+		
+         section { border: 1px solid red; }
+		img
+         {
+            margin: 80px;
+            -webkit-transition: -webkit-transform 4s;
+            -moz-transition: -moz-transform 4s;
+            -o-transition: -o-transform 4s;
+            transition: transform 4s;
+         }
+         img:hover
+         {
+            -webkit-transform:  scale(2, 2);
+            -moz-transform:  scale(2, 2);
+            -o-transform:  scale(2, 2);
+            transform:  scale(2, 2);
+         }
+		footer{background-color: gray;
+			   text-align: center;
+               font-family: arial, helvetica, sans-serif;
+               padding: .2em;
+		
+		}							
+      </style>
+
+   </head>
+ 
+   <body background="背景.jpg">
+      <header>
+	  <a href = "麥當勞.html">
+         <img src = "微笑歡樂送.png" alt = "W微笑歡樂送"  />
+	  </a>
+		<h1>↑↑↑W微笑歡樂送↑↑↑(點擊圖片)<h1>
+      </header>
+	  <section>
+         <h1 class = "floated">      微 笑 歡 樂 送,永 遠 使 你 微 笑 W</h1>
+         <p>
+		   <p> &nbsp;&nbsp;&nbsp;W微笑歡樂送已創立有百年歷史,為了您我們不斷地去創新,去嘗試,</p>
+			<p>&nbsp;&nbsp;&nbsp;也堅持長久以來的好口味與服務品質,將最好的一切都留給您,</p>
+			<p>&nbsp;&nbsp;&nbsp;讓<mark>"微笑"使你微笑!!!</mark></p>
+			&nbsp;&nbsp;&nbsp;地址:320桃園市中壢區遠東路135號  電話:03-463-8800</p>
+      </section>
+	  <aside>
+		<h2 style="font-size: 300%;">連結</h2>
+		<ul>
+        <li style="font-size: 150%;"><a href="http://www.facebook.com">Facebook</a></li>
+        <li style="font-size: 150%;"><a href="http://www.google.com.tw">Google+</a></li>
+        <li style="font-size: 150%;"><a href="http://mail.google.com">Email</a></li>
+    </ul>
+</aside>
+		<font align="center">
+		<h1>將游標移到圖片上放大查看</h1>
+		<p>
+		<text style="text-shadow: -4px 4px 6px dimgrey; color:blue;">一號餐↗</text>
+         <img src = "拼盤.jpg" width = "90" height = "120"
+            alt = "拼盤.jpg">
+		<text style="text-shadow: -4px 4px 6px dimgrey; color:blue;">二號餐↗</text>
+         <img src = "炸雞.jpg" width = "90" height = "120"
+            alt = "炸雞.jpg">
+		<text style="text-shadow: -4px 4px 6px dimgrey; color:blue;">三號餐↗</text>
+		 <img src = "熱狗堡.jpg" width = "90" height = "120"
+            alt = "熱狗堡.jpg">
+      </p>
+      <p>
+		<text style="text-shadow: -4px 4px 6px dimgrey; color:red;">蛋塔↗</text>
+         <img src = "蛋塔.jpg" width = "90" height = "120"
+            alt = "蛋塔.jpg">
+		<text style="text-shadow: -4px 4px 6px dimgrey; color:red;">雞米花↗</text>
+         <img src = "雞米花.jpg" width = "90" height = "120"
+            alt = "雞米花.jpg">
+		<text style="text-shadow: -4px 4px 6px dimgrey; color:red;">烤全雞↗</text>
+         <img src = "烤全雞.jpg" width = "90" height = "120"
+            alt = "烤全雞.jpg">
+      </p>
+	   </font>
+	  <form method = "post" action = "s1043339_HW2.php">
+          <p><label>姓名
+			<input name="name" type='text' placeholder ="郭XX" required size = "10"/>
+		  </p>
+		  
+		  <p>
+            <label>Tel:
+               <input name="tel" type = "tel" placeholder = "09xx-xxx-xxx" 
+                  pattern = "\d{4}-\d{3}-\d{3}" required  size = "25"/>
+                  (範例:09xx-xxx-xxx)
+            </label>
+         </p>
+         
+		<p>
+		<strong>勾選餐點</strong><br>
+			<label >一號餐
+		<input name = "howtosite" type = "radio"  value = "一號餐" checked></label>
+			<label>二號餐
+		<input name = "howtosite" type = "radio"  value = "二號餐"></label>
+			<label>三號餐
+		<input name = "howtosite" type = "radio"  value = "三號餐"></label>
+			<label>微笑
+		<input name = "howtosite" type = "radio"  value = "微笑"></label>
+		</p>
+		<p>
+            <label>外送加價購附餐:
+               <select name = "rating">
+                  <option selected>選我加價購(無)</option>
+                  <option>+0微笑一份</option>
+				  <option>+39蛋塔一盒</option>
+                  <option>+49雞米花</option>
+                  <option>+99烤全雞一隻</option>
+                  
+               </select>
+            </label>
+         </p>
+
+		 <p>
+            <label>Email:
+               <input name="email" type = "email" placeholder = "www微笑@domain.com" 
+                  required  size = "25"/> (www微笑@domain.com)
+            </label>
+         </p>
+         <p>
+            <label>外送時間(取餐時間):
+               <input name="time" type = "time" />
+                  ( 範例: 2015/10/30 上午 12:15)
+            </label>
+         </p>
+		 <p><label>地址
+			<input name="place" type='text' placeholder ="320桃園市中壢區遠東路135號" required size = "50"/>
+		  </p>
+          <p>
+            <input type = "submit" value = "遞交" />
+            <input type = "reset" value = "清除" />
+         </p>
+		
+      </form>
+	        <footer>
+      <h6>&copy; 1992-2015 by 郭俊佑 &amp;  
+            廣告由郭俊佑所贊助<h6>
+         <address>
+            Contact us at <a href = "mailto:deitel@deitel.com">
+            deitel@deitel.com</a>
+         </address>
+      </footer>
+     
+   </body>
+</html>
